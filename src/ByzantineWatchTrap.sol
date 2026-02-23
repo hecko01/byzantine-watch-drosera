@@ -2,8 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "./interfaces/ITrap.sol";
-import "v3-periphery/interfaces/INonfungiblePositionManager.sol";
-
+import "v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol";
 contract ByzantineWatchTrap is ITrap {
     INonfungiblePositionManager public immutable positionManager;
     
